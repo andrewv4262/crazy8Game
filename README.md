@@ -6,7 +6,7 @@ Files Overview
 
 Card.h & Card.cpp: Defines the Card class, which represents a playing card. Includes properties such as rank, suit, and times played.
 
-Player.h & Player.cpp: Implements the Player class, which represents a game participant. It manages the player's hand and allows them to play cards.
+Player.h & Player.cpp: Implements the Player class, which represents a game participant. It manages the player's hand and gameplay actions.
 
 Game.cpp: Implements the game logic, handling deck loading, player turns, drawing, and winning conditions.
 

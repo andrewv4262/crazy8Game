@@ -1,8 +1,8 @@
-Introduction
+# Introduction
 
 This is a command-line card game implemented in C++. The game follows a turn-based structure where players attempt to play cards based on rank or suit, with a special rule for '8' cards. The game supports both human and AI players.
 
-Files Overview
+# Files Overview
 
 Card.h & Card.cpp: Defines the Card class, which represents a playing card. Includes properties such as rank, suit, and times played.
 
@@ -12,7 +12,7 @@ Game.cpp: Implements the game logic, handling deck loading, player turns, drawin
 
 Deck Files (colorfulDeck.txt, smallDeck.txt, standardDeck.txt): Contains pre-defined decks for gameplay, defining suits and ranks.
 
-How to Play
+# How to Play
 
 The game initializes by loading a deck from a file.
 
@@ -24,14 +24,14 @@ Special Rule: Playing an '8' allows the player to choose the next suit.
 
 The game continues until a player runs out of cards, making them the winner.
 
-Running the Game
+# Running the Game
 
 To compile and run the game, use the following commands:
 
- g++ -o game Card.cpp Player.cpp Game.cpp -std=c++11
- ./game
+g++ -o game Card.cpp Player.cpp Game.cpp -std=c++11
+./game
 
-Features
+# Features
 
 Turn-based gameplay
 
@@ -41,7 +41,7 @@ Different deck options
 
 Special mechanics for '8' cards
 
-Future Improvements
+# Future Improvements
 
 More advanced AI decision-making
 
@@ -49,7 +49,6 @@ Enhanced user interface
 
 Additional game variations
 
-Author
+# Author
 
-[Your Name]
-
+Andrew Vong
